@@ -302,7 +302,7 @@ getIngredients()
 function displayIngredients() {
     let temp = ''
     for (let i = 0; i < 20; i++) {
-        temp += `<div class="col-md-3 p-2">
+        temp += `<div class="col-md-3 pt-3 pb-5 mt-5">
         <div class="areaIcon position-relative text-center">
           <i class="fa-solid fa-drumstick-bite fa-4x text-white"></i>
           <p>${Ingredients.flat()[i].strIngredient}</p>
